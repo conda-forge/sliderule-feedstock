@@ -27,6 +27,7 @@ requirements:
     - cartopy
     - geopandas
     - ipykernel
+    - ipyleaflet
     - ipywidgets
     - matplotlib-base
     - numpy
