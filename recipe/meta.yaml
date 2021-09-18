@@ -26,10 +26,10 @@ requirements:
   run:
     - cartopy
     - geopandas
+    - h5py
     - ipykernel
     - ipyleaflet
     - ipywidgets
-    - tk
     - matplotlib-base
     - numpy
     - pandas
@@ -41,6 +41,7 @@ requirements:
     - setuptools-scm
     - setuptools
     - shapely
+    - tk
 
 test:
   imports:
