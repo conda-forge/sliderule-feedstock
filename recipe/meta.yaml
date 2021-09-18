@@ -29,6 +29,7 @@ requirements:
     - ipykernel
     - ipyleaflet
     - ipywidgets
+    - tk
     - matplotlib-base
     - numpy
     - pandas
