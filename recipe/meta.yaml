@@ -20,7 +20,7 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.8
     - setuptools-scm
     - setuptools
   run:
@@ -30,11 +30,13 @@ requirements:
     - ipykernel
     - ipyleaflet
     - ipywidgets
+    - jupyterlab=3
+    - jupyterlab_widgets
     - matplotlib-base
     - numpy
     - pandas
     - pyproj
-    - python >=3.6
+    - python >=3.8
     - python-dateutil
     - requests
     - scipy
