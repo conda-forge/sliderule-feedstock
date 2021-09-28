@@ -30,7 +30,7 @@ requirements:
     - ipykernel
     - ipyleaflet
     - ipywidgets
-    - jupyterlab=3
+    - jupyterlab =3
     - jupyterlab_widgets
     - matplotlib-base
     - numpy
