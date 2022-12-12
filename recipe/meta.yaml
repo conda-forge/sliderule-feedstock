@@ -1,6 +1,6 @@
 {% set name = "sliderule" %}
-{% set version = "1.4.6" %}
-{% set sha256 = "732627f85336d0e3bf7f6a6e6e6afb4c2a604b658718cec063be7342d28fc996" %}
+{% set version = "1.5.5" %}
+{% set sha256 = "632e76ab9b86dd5803031e08aefe509108ddcfe50f2bf590b8dc70e2124fd172" %}
 
 package:
   name: {{ name|lower }}
@@ -22,25 +22,25 @@ requirements:
     - setuptools
   run:
     - geopandas
-    - gdal
     - h5py
     - ipykernel
-    - ipyleaflet
-    - ipywidgets
-    - matplotlib-base
+    - ipywidgets>=7.6,<8.0
+    - ipyleaflet>=0.15
+    - jupyterlab=3
+    - jupyterlab_widgets
+    - matplotlib
     - ipympl
     - numpy
     - pandas
     - pyproj
     - pytables
-    - python >=3.6
-    - python-dateutil
+    - python=3.8
     - requests
+    - scikit-learn
     - scipy
-    - setuptools
+    - setuptools_scm
     - shapely
     - tk
-    - traitlets
     - xyzservices
 
 test:
@@ -52,13 +52,13 @@ test:
     - pip
 
 about:
-  home: http://icesat2sliderule.org/
+  home: http://slideruleearth.io/
   summary: Python client for SlideRule
   license: BSD-3-Clause
   license_file: LICENSE
   description: |
     Python client to interact with SlideRule, a C++/Lua framework for on-demand data processing
-  doc_url: http://icesat2sliderule.org/rtd/
+  doc_url: http://slideruleearth.io/rtd/
   dev_url: https://github.com//ICESat2-SlideRule/sliderule-python
 
 extra:
