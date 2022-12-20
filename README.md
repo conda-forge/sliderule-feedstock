@@ -1,7 +1,7 @@
 About sliderule
 ===============
 
-Home: http://icesat2sliderule.org/
+Home: http://slideruleearth.io/
 
 Package license: BSD-3-Clause
 
@@ -11,7 +11,7 @@ Summary: Python client for SlideRule
 
 Development: https://github.com//ICESat2-SlideRule/sliderule-python
 
-Documentation: http://icesat2sliderule.org/rtd/
+Documentation: http://slideruleearth.io/rtd/
 
 Python client to interact with SlideRule, a C++/Lua framework for on-demand data processing
 
