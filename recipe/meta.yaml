@@ -32,6 +32,7 @@ requirements:
     - ipympl
     - numpy
     - pandas
+    - pyarrow
     - pyproj
     - pytables
     - python >=3.8
