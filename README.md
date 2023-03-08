@@ -1,11 +1,11 @@
-About sliderule
-===============
+About sliderule-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sliderule-feedstock/blob/main/LICENSE.txt)
 
 Home: http://slideruleearth.io/
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sliderule-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python client for SlideRule
 
