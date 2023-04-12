@@ -9,7 +9,7 @@ Package license: BSD-3-Clause
 
 Summary: Python client for SlideRule
 
-Development: https://github.com//ICESat2-SlideRule/sliderule-python
+Development: https://github.com//ICESat2-SlideRule/sliderule
 
 Documentation: http://slideruleearth.io/rtd/
 
