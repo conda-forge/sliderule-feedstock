@@ -9,11 +9,11 @@ Package license: BSD-3-Clause
 
 Summary: Python client for SlideRule
 
-Development: https://github.com//ICESat2-SlideRule/sliderule-python
+Development: https://github.com/SlideRuleEarth/sliderule
 
-Documentation: http://slideruleearth.io/rtd/
+Documentation: https://slideruleearth.io/web/rtd/
 
-Python client to interact with SlideRule, a C++/Lua framework for on-demand data processing
+Python client to interact with SlideRule, a public web service for processing Earth science data
 
 
 Current build status
