@@ -24,10 +24,8 @@ requirements:
     - geopandas
     - numpy
     - pandas
-    - pyarrow
     - python >=3.8
     - requests
-    - setuptools_scm
     - shapely
 
 test:
