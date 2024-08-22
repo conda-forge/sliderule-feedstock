@@ -24,11 +24,11 @@ requirements:
     - geopandas
     - numpy
     - pandas
-    - pyarrow
     - python >=3.8
     - requests
-    - setuptools_scm
     - shapely
+    - fiona
+    - pyarrow
 
 test:
   imports:
@@ -44,9 +44,9 @@ about:
   license: BSD-3-Clause
   license_file: LICENSE
   description: |
-    Python client to interact with SlideRule, a C++/Lua framework for on-demand data processing
+    Python client to interact with SlideRule, a public web service for processing Earth science data
   doc_url: http://slideruleearth.io/rtd/
-  dev_url: https://github.com//ICESat2-SlideRule/sliderule
+  dev_url: https://github.com/SlideRuleEarth/sliderule
 
 extra:
   recipe-maintainers:
