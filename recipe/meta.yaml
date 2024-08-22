@@ -27,6 +27,8 @@ requirements:
     - python >=3.8
     - requests
     - shapely
+    - fiona
+    - pyarrow
 
 test:
   imports:
