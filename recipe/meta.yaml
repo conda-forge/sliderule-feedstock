@@ -1,6 +1,6 @@
 {% set name = "sliderule" %}
-{% set version = "4.6.2" %}
-{% set sha256 = "e51672ec5f73d8b43c94bfa35323695c304a2657a11f7a140bcf92a4b7a3bb41" %}
+{% set version = "4.6.3" %}
+{% set sha256 = "7e180e5490aaf251e0f255334a58849fec77d96d8c746815e76efeda7baa5d1f" %}
 
 package:
   name: {{ name|lower }}

@@ -11,7 +11,7 @@ Summary: Python client for SlideRule
 
 Development: https://github.com/SlideRuleEarth/sliderule
 
-Documentation: https://slideruleearth.io/web/rtd/
+Documentation: http://slideruleearth.io/rtd/
 
 Python client to interact with SlideRule, a public web service for processing Earth science data
 
