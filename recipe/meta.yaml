@@ -11,8 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
-  noarch: python
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -24,7 +23,7 @@ requirements:
     - geopandas
     - numpy
     - pandas
-    - python >={{ python_min }}
+    - python
     - requests
     - shapely
     - fiona
