@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 2
+  number: 3
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -21,7 +21,7 @@ requirements:
     - pip
     - setuptools
   run:
-    - "python >=3.10"
+    - python >={{ python_min }}
     - geopandas
     - numpy
     - pandas
