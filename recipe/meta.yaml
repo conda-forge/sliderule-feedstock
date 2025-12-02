@@ -11,19 +11,20 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  noarch: python
+  number: 2
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - pip
     - python {{ python_min }}
+    - pip
     - setuptools
   run:
+    - "python >=3.10"
     - geopandas
     - numpy
     - pandas
-    - python
     - requests
     - shapely
     - fiona
