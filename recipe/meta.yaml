@@ -1,6 +1,6 @@
 {% set name = "sliderule" %}
-{% set version = "5.0.1" %}
-{% set sha256 = "323f488c157fb42d499b952d0c587e8e0156397a3e5e594855fd0d58475cbdd9" %}
+{% set version = "5.0.2" %}
+{% set sha256 = "830a6c77e35cd1690d08a580cbfa7d7710991e2c9358337145f08e579ad46aa9" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
