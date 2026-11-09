@@ -12,20 +12,20 @@ source:
 
 build:
   noarch: python
-  number: 0
-  script: {{ PYTHON }} -m pip install . -vv
+  number: 1
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
   host:
     - python {{ python_min }}
     - pip
-    - setuptools
+    - setuptools >=77.0.0
+    - setuptools-scm
   run:
     - python >={{ python_min }}
-    - geopandas
-    - numpy
-    - pandas
     - requests
+    - numpy
+    - geopandas
     - shapely
     - pyarrow
 
@@ -34,6 +34,7 @@ test:
     - sliderule
   commands:
     - pip check
+    - python -c "import sliderule; assert sliderule.__version__ == '{{ version }}', sliderule.__version__"
   requires:
     - pip
     - python {{ python_min }}
